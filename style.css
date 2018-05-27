@@ -1,0 +1,171 @@
+
+html{
+font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+
+
+
+}
+body {
+    margin: auto;
+
+}
+#body1{
+  margin-left: 8%;
+
+
+}
+
+#navBar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 8%;
+    background-color:rgb(227, 227, 227);
+    position: fixed;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #2c7acc;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+#Name{
+
+font-size:30px;
+text-align: center;
+
+
+}
+#underName{
+  font-size: 12px;
+  text-align: center;
+
+}
+#Home{
+  align-self: center;
+  border: 2px solid black;
+color:white;
+margin-left: 30px;
+
+width: 96%;
+
+padding-bottom: 35em;
+
+
+
+text-align: justify;
+resize: auto;
+
+
+  background-image: url("icons/selfie.png");
+
+background-size: cover;
+background-repeat: no-repeat;
+overflow: hidden;
+
+}
+#About{
+  border: 2px solid black;
+text-align: left;
+background-color: white;
+margin: 40px;
+padding: 10px
+}
+#about1{
+  text-align: center;
+}
+#Skills{
+  border: 2px solid black;
+text-align: center;
+background-color: white;
+margin: 40px;
+
+
+}
+#Projects{
+  border: 2px solid black;
+text-align: center;
+background-color: white;
+margin: 40px;
+
+}
+#Education{
+  border: 2px solid black;
+text-align: center;
+background-color: white;
+margin: 40px;
+
+
+}
+#Contact{
+  border: 2px solid black;
+text-align: center;
+background-color: white;
+margin: 40px;
+
+}
+#Headers{
+  background-color:rgb(0, 144, 53)  ;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: sans-serif;
+  font-stretch: extra-expanded;
+
+}
+.footer{
+  background-color: lightgrey;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-style: oblique;
+  font-family: monospace;
+  text-align: center;
+  margin-top: 10px;
+
+
+}
+
+#entry{
+  background-color: white;
+  border: 20px solid #bdc3c7;
+  padding: 20px;
+  margin-left: 10%;
+  margin-right: 2%;
+
+}
+#entry1{
+  background-color: white;
+  border: 20px solid #bdc3c7;
+  padding: 20px;
+  margin-left: 10%;
+  margin-top: 2%;
+  margin-right: 2%;
+}
+
+.info{
+  border-left: 5px solid #bdc3c7;
+  padding-left: 5px;
+}
+.date{
+  color: #3498db;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+.blogTitle{
+  color:#2c3e50;
+  font-size: 2.0rem;
+}
